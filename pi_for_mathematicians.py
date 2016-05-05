@@ -2,9 +2,6 @@ from decimal import *
 
 pi_100 = Decimal('3.1415926535897932384626433832795028841971693993751058209749445923078164062862089986280348253421170679')
 
-#print pi[:len(pi) + 2]
-#print pi_100_rounded
-
 def pi_vs_100():
 # Take user input for the value of pi.  This will be loaded as a string.
 	pi = raw_input("You're a mathematician, eh?  What is the value of pi?")
